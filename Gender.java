@@ -18,3 +18,4 @@ public class Gender
             default: System.out.println("Invalid");
         }
     }
+}
