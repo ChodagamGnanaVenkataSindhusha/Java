@@ -11,7 +11,8 @@ public class AddArrayM
     }
     public static void main(String[] args)
     {
-        int[] arr = {5, 10, 15, 20}; int result = addArray(arr);
+        int[] arr = {5, 10, 15, 20};
+        int result = addArray(arr);
         System.out.println("Total sum of array = " + result);
     }
 }
