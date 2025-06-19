@@ -11,7 +11,8 @@ public class RemoveElement
             }
         }
     }
- public static void main(String[] args) {
+ public static void main(String[] args) 
+    {
         int[] numbers = {10, 20, 30, 20, 40, 50};
         int remove = 20;
         RemoveElement obj = new RemoveElement();
