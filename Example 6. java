@@ -1,0 +1,14 @@
+public class Example6
+{
+    static int s1 = 10;
+    static int s2 = 20;
+    int i1 = 30;
+    int i2 = 40;
+    public static void main(String[] args)
+    {
+        Example6 obj = new Example6();
+        System.out.println("Static Variables: " + s1 + ", " + s2);
+        System.out.println("Instance Variables: " + obj.i1 + ", " + obj.i2);
+    }
+}
+
