@@ -1,0 +1,31 @@
+public class Example1
+{
+    static int a = 10;
+    static int b = 20;
+    int x = 5;
+    int y = 15;
+    static void staticMethod1() 
+    {
+        System.out.println("Static Method 1");
+    }
+    static void staticMethod2() 
+    {
+        System.out.println("Static Method 2");
+    }
+    void instanceMethod1() 
+    {
+        System.out.println("Instance Method 1");
+    }
+    void instanceMethod2() 
+    {
+        System.out.println("Instance Method 2");
+    }
+    public static void main(String[] args)
+    {
+        Example1 obj = new Example1();
+        staticMethod1();
+        staticMethod2();
+        obj.instanceMethod1();
+        obj.instanceMethod2();
+    }
+}
