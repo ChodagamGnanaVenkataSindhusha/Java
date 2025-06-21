@@ -21,3 +21,16 @@ System.out.println(s1==s6);
 System.out.println(s5==s6);
 }
 }
+/*o/p:
+  true
+false
+false
+true
+false
+false
+true
+false
+false
+false
+false
+false*/
