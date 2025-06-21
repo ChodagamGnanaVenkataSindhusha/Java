@@ -15,3 +15,10 @@ System.out.println("using plus:"+ result1);
 System.out.println("using concat:"+result2);
 }
 }
+o/p:
+  nter first string:
+SINDHU
+Enter first string:
+SHA
+using plus:SINDHUSHA
+using concat:SINDHUSHA
