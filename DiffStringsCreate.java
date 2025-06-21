@@ -14,3 +14,8 @@ System.out.println(s3);
 System.out.println(s4);
 }
 }
+o/p:
+  Sindhu
+Chodagam
+
+cse
