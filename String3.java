@@ -10,3 +10,6 @@ System.out.println(s1==s6);
 System.out.println(s1);
 }
 }
+/*o/p:
+  false
+svietSviet*/
