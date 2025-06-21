@@ -16,3 +16,11 @@ System.out.println(s1.equalsIgnoreCase(s4));
 System.out.println(s1.equalsIgnoreCase(s5));
 }
 }
+/*o/p:
+true
+true
+false
+false
+false
+true
+true*/
