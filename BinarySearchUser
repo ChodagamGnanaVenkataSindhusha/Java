@@ -1,0 +1,54 @@
+import java.util.Scanner;
+public class BinarySearchUser
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+System.out.print("Enter size of array: ");
+int size = sc.nextInt();
+int[] arr = new int[size];
+System.out.println("Enter " + size + " sorted elements:");
+for (int i = 0; i < size; i++)
+{
+            arr[i] = sc.nextInt();
+        }
+        System.out.print("Enter number to search: ");
+        int key = sc.nextInt();
+        int start = 0;
+        int end = size - 1;
+        boolean found = false;
+        while (start <= end)
+        {
+            int mid = (start + end) / 2;
+            if (arr[mid] == key)
+            {
+                System.out.println("Found at index: " + mid);
+                found = true;
+                break;
+            }
+            else if (key < arr[mid]) 
+            {
+                end = mid - 1;
+            }
+            else 
+            {
+                start = mid + 1;
+            }
+        }
+        if (!found)
+        {
+            System.out.println("Not found");
+        }
+        sc.close();
+    }
+}
+
+o/p:
+Enter size of array: 3
+Enter 3 sorted elements:
+10
+20
+30
+Enter number to search: 50
+Not found
+50
